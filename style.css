@@ -245,6 +245,7 @@ color: #088178;
     width: 100%;
     height: 40vh;
     background-size: cover;
+    background-position: center;
 }
 .banner h4{
     color: white;
@@ -262,4 +263,71 @@ color: #088178;
 .banner button:hover{
     background: #088178;
     color: white;
+}
+/* Offer banners */
+.sm-banners{
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sm-banners .banner-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/img/banner/b17.jpg);
+    min-width: 700px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+}
+.sm-banners .banner-box2{
+    background-image: url(/img/banner/b10.jpg);
+}
+.sm-banners .banner-box:hover button{
+ background: #088178;
+    color: white;
+    border: none;
+}
+.sm-banners h4{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+.sm-banners h2{
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+}
+.sm-banners span{
+    color: #68613b;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.sm-banners span span{
+    color:#088178;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sm-banners .banner-box2 span span{
+    color:#ffffff;
+}
+.banner-box2 span{
+    color: black;
+}
+.sm-banners button{
+    background-color: transparent;
+    color: white;
+    padding: 13px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s ease;
 }
