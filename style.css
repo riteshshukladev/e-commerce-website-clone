@@ -331,3 +331,40 @@ color: #088178;
     outline: none;
     transition: 0.2s ease;
 }
+.banner3{
+ padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner3 .banner-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+
+}
+
+.banner-box h2{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+.banner3 .banner-box h3{
+    color: rgb(217, 32, 32);
+    font-weight: 800;
+    font-size: 18px;
+}
+.banner3 .banner-box2{
+    background-image: url(/img/banner/b4.jpg);
+}
+.banner3 .banner-box3{
+    background-image: url(/img/banner/b18.jpg);
+}
