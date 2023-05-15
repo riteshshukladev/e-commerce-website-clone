@@ -662,7 +662,7 @@ footer .copyright{
     }
     .newsletter {
 
-        margin: 20px 0;
+        margin: 10px 0;
         padding: 40px 60px;
     }
     .newsletter h4 {
@@ -686,6 +686,12 @@ footer .copyright{
         padding: 0 1.25rem;
         font-size: 12px;
         width: 30%;
+    }
+    footer {
+        padding: 20px 40px 0px 10px;
+    }
+    footer h4{
+        padding-bottom: 12px;
     }
     
 }
