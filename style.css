@@ -785,3 +785,23 @@ color: #ffff;
 #prodetails .single-pro-details span{
     line-height: 25px;
 }
+@media (max-width:820px){
+    #prodetails{
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-image img{
+        width:100%;
+    }
+    #prodetails .small-img-group{
+        width: 100%;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
