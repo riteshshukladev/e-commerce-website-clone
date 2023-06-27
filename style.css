@@ -726,27 +726,8 @@ color: #ffff;
 /* Single Product */
 #prodetails{
     padding: 40px 80px;
+    display: flex;
 }
- /* .single-pro-image img{
-    max-width: 100%;
-}
-.single-pro-image .main-img{
-    width: 30%; 
-}
-
-.small-img-group{
-  width: 100%;
-    display: flex; 
-    justify-content: space-between;
-}
-.small-img-group img{
-    width: 100%; 
-    cursor: pointer;
-}
-.small-img-col{
-    flex-basis: 30%;
-
-} */
 #prodetails .single-pro-image{
     width: 30%;
 }
@@ -758,8 +739,49 @@ color: #ffff;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    cursor: pointer;
 }
 .small-img-col{
     flex-basis: 24%;
 
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 30px 0px 20px 0px;
+    font-weight: 600;
+}    
+#prodetails .single-pro-details h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+#prodetails .single-pro-details h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }
