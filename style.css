@@ -893,3 +893,24 @@ color: #ffff;
         width: 100%;
     }
 }
+/* About */
+
+#page-header.about-header{
+    background-image: url("img/about/banner.png");
+}
+.about-head{
+    padding:40px 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.about-head img{
+    width: 50%; 
+     height: auto;
+}
+.about-head div{
+    padding-left: 40px;
+}
+.about-head div marquee{
+    margin-top: 30px;
+}
