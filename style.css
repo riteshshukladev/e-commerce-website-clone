@@ -951,3 +951,151 @@ color: #ffff;
         
     }
 }
+/* contact page */
+.cont-details{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont-details .details{
+    width: 40%;
+}
+.cont-details .details span{
+    font-size: 14px;
+    
+}
+.cont-details .details h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+.cont-details .details h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.cont-details .details li{
+    list-style: none;
+    padding: 10px 0px;
+   display: flex;
+   align-items: center;
+   
+}
+.cont-details .details li i{
+    font-size: 18px;
+    
+    padding-right: 20px;
+}
+.cont-details .details li p{
+    margin: 0;
+    font-size: 18px;
+}
+.cont-details .map{
+    width: 50%;
+    height: 400px;
+}
+.cont-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+.form-details{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e1e1e1;
+    margin: 30px;
+}
+.form-details form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-details form span{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.form-details form h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    padding:10px 0px 20px 0px ;
+}
+.form-details form input,.form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+}
+.form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+.form-details .people .people-details{
+    display: flex;
+
+    margin-bottom: 10px;
+}
+.form-details .people .people-details img{
+    margin-right: 20px;
+}
+.form-details .people .people-details .people-text{
+    line-height: 10px;
+}
+.form-details .people .people-details .people-text h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.form-details .people .people-details .people-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width:800px){
+    .form-details{
+        padding: 40px;
+    }
+    .form-details form {
+        width: 50%;
+        
+    }
+}
+
+@media (max-width:470px) {
+    .cont-details{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .cont-details .details{
+        width: 100%;
+    }
+    .cont-details .map{
+        width: 100%;
+       
+    }
+    .form-details {
+    
+        padding: 20px 20px;
+        margin: 20px;
+        flex-direction: column;
+    }
+    .form-details form {
+        width: 100%;
+
+    }
+    .form-details .people{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .form-details .people .people-details img{
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+}
