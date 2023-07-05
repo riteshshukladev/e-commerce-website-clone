@@ -240,6 +240,8 @@ color: #088178;
     position: absolute;
     bottom: 20px;
     right: 10px;
+    overflow-x: none;
+    overflow-y: none;
 }
 /* Banner */
 .banner{
@@ -1100,53 +1102,53 @@ color: #ffff;
 
 }
 /* Cart section */
-.cart{
+.main-cart{
     padding: 40px 80px;
     overflow-x: auto;
 }
-.cart table{
+.main-cart table{
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     white-space: nowrap;
 }
-.cart table img{
+.main-cart table img{
     width: 80px;
     height: 80px;
     object-fit: cover;
 }
-.cart table td:nth-child(1){
+.main-cart table td:nth-child(1){
  width: 100px;
  text-align: center;
 }
-.cart table td:nth-child(2){
+.main-cart table td:nth-child(2){
     width: 150px;
     text-align: center;
    }
-   .cart table td:nth-child(3){
+   .main-cart table td:nth-child(3){
     width: 250px;
     text-align: center;
    }
-   .cart table td:nth-child(4),.cart table td:nth-child(5),.cart table td:nth-child(6){
+   .main-cart table td:nth-child(4),.main-cart table td:nth-child(5),.main-cart table td:nth-child(6){
     width: 150px;
     text-align: center;
    }
-   .cart table td:nth-child(5) input{
+   .main-cart table td:nth-child(5) input{
     width : 70px;
     padding: 10px 5px 10px 15px;
    }
-   .cart table thead{
+   .main-cart table thead{
     border: 1px solid #e2e9e1;
     border-right: none;
     border-left: none;
    }
-   .cart table thead td{
+   .main-cart table thead td{
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
     padding: 15px 0px;
    }
-   .cart table tbody tr td{
+   .main-cart table tbody tr td{
     padding-top:10px ;
    }
    .cart-add{
