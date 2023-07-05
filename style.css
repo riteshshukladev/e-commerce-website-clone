@@ -1099,3 +1099,129 @@ color: #ffff;
     }
 
 }
+/* Cart section */
+.cart{
+    padding: 40px 80px;
+    overflow-x: auto;
+}
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart table img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.cart table td:nth-child(1){
+ width: 100px;
+ text-align: center;
+}
+.cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+   }
+   .cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+   }
+   .cart table td:nth-child(4),.cart table td:nth-child(5),.cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+   }
+   .cart table td:nth-child(5) input{
+    width : 70px;
+    padding: 10px 5px 10px 15px;
+   }
+   .cart table thead{
+    border: 1px solid #e2e9e1;
+    border-right: none;
+    border-left: none;
+   }
+   .cart table thead td{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 0px;
+   }
+   .cart table tbody tr td{
+    padding-top:10px ;
+   }
+   .cart-add{
+    display: flex;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .cart-add .coupan{
+    width: 50%;
+    margin-bottom: 30px;
+   }
+   .cart-add .coupan h3{
+    padding-bottom: 15px;
+    font-size: 20px;
+   }
+   .cart-add .coupan input{
+    padding: 12px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+    font-size: 15px;
+   }
+   .cart-add .coupan button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+   }
+   .subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+   }
+   .subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+   }
+   .subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px 0px;
+    font-size: 16px;
+   }
+   .subtotal h3{
+    padding-bottom: 15px;
+   }
+    .subtotal button{
+     background-color: #088178;
+     color: #fff;
+     padding: 12px 20px;
+     border: none;
+     outline: none;
+     border-radius: ;
+    }
+    @media (max-width:470px) {
+        .cart-add {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 20px;
+        }
+        .subtotal {
+            width: 100%;
+            
+        }
+        .cart-add .coupan{
+            width: 100%;
+            text-align: center;
+        }
+        .cart-add .coupan input{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
